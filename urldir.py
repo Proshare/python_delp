@@ -22,11 +22,11 @@ for img in imglist :
 
     x+=1
 
-
-
 # pageFile = open('pageCode.txt', 'wb+')
 # # 以写的方式打开pageCode.txt
 #
 # pageFile.write(html)
 # pageFile.close() #开了记得关
+
+
 
