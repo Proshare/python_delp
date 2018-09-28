@@ -18,6 +18,8 @@ for img in imglist :
     print(img)
 
 
+
+
 # pageFile = open('pageCode.txt', 'wb+')
 # # 以写的方式打开pageCode.txt
 #
