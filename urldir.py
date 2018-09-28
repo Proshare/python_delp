@@ -14,9 +14,13 @@ reg= 'src="(.+?\.jpg)" width'#正则表达式
 
 reg_img=re.compile(reg)#预编译一下
 imglist=reg_img.findall(html) #进行匹配
+x=0
 for img in imglist :
-    print(img)
+    # print(img)
+# 下载图片s
+    urllib.request.urlretrieve(img,"%s.jpg" %x)
 
+    x+=1
 
 
 
